@@ -1,5 +1,136 @@
-*{
-    margin: 0;
+/*@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");*/
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.part-comment {
+  background-color: #efefef;
+  padding-top: 91px;
+  padding-bottom: 111px;
+}
+.heading {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.box-1 {
+  width: 52.5%;
+  background-color: white;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-top: 49px;
+}
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+  padding: 45px;
+}
+.info {
+  display: flex;
+  gap: 30px;
+}
+.fullname {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.icon{
+  margin-top: 30px;
+}
+.profil {
+  margin-left: 26px;
+  margin-bottom: 29px;
+}
+.icon-part {
+  margin-top: 39px;
+}
+.announcement {
+  background: #9dc9c8;
+  padding-top: 179px;
+  padding-bottom: 185px;
+}
+.p1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.cost {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.row3 {
+  display: flex;
+  gap: 70px;
+}
+.column {
+  width: calc((100% / 12) * 3);
+  padding-top: 60px;
 }
 
- /*  css commit*/ 
+.title1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.title2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.text1,
+.text2 {
+  padding-top: 20px;
+  padding-right: 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 101.38%;
+  color: #000000;
+}
+.heading2 {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-bottom: 54px;
+}
