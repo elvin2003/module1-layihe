@@ -1,1 +1,79 @@
-/* cards section. */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.elv{
+  margin-bottom: calc(100%/12/2);
+}
+.cards-heading{
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 101.38%;
+  margin-bottom: 5%;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  width: calc(100%/10*6);
+  border-radius: 12%;
+  margin-top: 2%;
+  margin-bottom: calc(100%/12);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
+.card-img{
+  width: 100%;
+}
+.card-text{
+  margin: 1% 4%;
+  margin-bottom: 2%;
+}
+.card-text h3{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+}
+.card-text p{
+  margin: 5% 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+}
+
+@media screen and (min-width: 835px){
+  .card{
+    width: calc(100%/10*3);
+    margin-bottom: calc(100%/10/6);
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+  }
+  .card-container{
+    justify-content: start;
+    gap: calc(100%/10/4);
+  }
+  .cards-heading{
+    font-size: 32px;
+  }
+  .card-text h3{
+    font-size: 17px;
+  }
+  .card-text p{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .cards-heading{
+    font-size: 55px;
+  }
+  .card-text h3{
+    font-size: 30px;
+  }
+  .card-text p{
+    font-size: 25px;
+  }
+  .card{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  }
+}
