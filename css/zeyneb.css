@@ -1,50 +1,27 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");*/
-@import 
-url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import 
-url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: Roboto;
-}
-.container {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  font-style: normal;
+  color: #000000;
 }
 .part-comment {
   background-color: #efefef;
-  padding-top: 91px;
-  padding-bottom: 111px;
 }
 .heading {
   font-family: "Roboto Slab";
-  font-style: normal;
   font-weight: 700;
-  font-size: 55px;
   line-height: 101.38%;
-  color: #000000;
 }
 .box-1 {
-  width: 52.5%;
   background-color: white;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
-  margin-top: 49px;
 }
 .text {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
-  font-size: 20px;
   line-height: 150%;
-  color: #000000;
-  padding: 45px;
 }
 .info {
   display: flex;
@@ -52,13 +29,10 @@ body {
 }
 .fullname {
   font-family: "Roboto Slab";
-  font-style: normal;
   font-weight: 700;
-  font-size: 30px;
   line-height: 101.38%;
-  color: #000000;
 }
-.icon{
+.icon {
   margin-top: 30px;
 }
 .profil {
@@ -70,24 +44,21 @@ body {
 }
 .announcement {
   background: #9dc9c8;
-  padding-top: 179px;
-  padding-bottom: 185px;
+}
+.heading2 {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  line-height: 101.38%;
 }
 .p1 {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
-  font-size: 25px;
   line-height: 101.38%;
-  color: #000000;
 }
 .cost {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
-  font-size: 80px;
   line-height: 101.38%;
-  color: #000000;
 }
 .row3 {
   display: flex;
@@ -95,42 +66,228 @@ body {
 }
 .column {
   width: calc((100% / 12) * 3);
-  padding-top: 60px;
 }
 
-.title1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 101.38%;
-  color: #000000;
-}
+.title1,
 .title2 {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 101.38%;
-  color: #000000;
 }
 .text1,
 .text2 {
-  padding-top: 20px;
-  padding-right: 80px;
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 101.38%;
-  color: #000000;
 }
-.heading2 {
-  font-family: "Roboto Slab";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 101.38%;
-  color: #000000;
-  margin-bottom: 54px;
+@media (min-width: 320px) and (max-width: 991px) {
+  .part-comment {
+    padding-top: 42px;
+    padding-bottom: 53px;
+  }
+  .heading {
+    font-size: 26px;
+    width: calc((100% / 12) * 11);
+  }
+  .box-1 {
+    width: 100%;
+    margin-top: 21px;
+    border-radius: 15px;
+  }
+  .text {
+    font-size: 10px;
+    padding: 18px 21px 5px;
+  }
+  .info {
+    display: flex;
+    gap: 5px;
+  }
+  .fullname {
+    font-size: 14px;
+  }
+  .profil {
+    width: calc((100% / 12) * 3);
+    margin-left: 21px;
+    margin-bottom: 13px;
+  }
+  .icon {
+    width: calc(100% / 12);
+    margin-top: 13px;
+  }
+  .icon-part {
+    margin-top: 13px;
+  }
+  .announcement {
+    padding-top: 62px;
+    padding-bottom: 63px;
+  }
+  .heading2 {
+    width: 70%;
+    font-size: 26px;
+    margin-bottom: 23px;
+  }
+  .p1 {
+    font-size: 12px;
+  }
+  .cost {
+    font-size: 37px;
+  }
+  .title1,
+  .title2 {
+    font-size: 12px;
+  }
+  .text1,
+  .text2 {
+    font-size: 10px;
+    padding-top: 8px;
+    padding-right: 1px;
+  }
+  .row3 {
+    display: flex;
+    gap: 20px;
+  }
+  .column {
+    width: calc((100% / 12) * 8);
+    padding-top: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1279px) {
+  .part-comment {
+    padding-top: 52px;
+    padding-bottom: 65px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .box-1 {
+    width: calc((100% / 12) * 7);
+    margin-top: 19px;
+    border-radius: 15px;
+  }
+  .text {
+    font-size: 12px;
+    padding: 23px 26px;
+  }
+  .info {
+    display: flex;
+    gap: 17px;
+  }
+  .fullname {
+    font-size: 17px;
+  }
+  .profil {
+    width: calc((100% / 12) * 3);
+    margin-left: 15px;
+    margin-bottom: 16px;
+  }
+  .icon {
+    width: calc(100% / 12);
+    margin-top: 20px;
+  }
+  .icon-part {
+    margin-top: 28px;
+  }
+  .announcement {
+    padding-top: 103px;
+    padding-bottom: 107px;
+  }
+  .heading2 {
+    font-size: 32px;
+    margin-bottom: 31.27px;
+  }
+  .p1 {
+    font-size: 14px;
+  }
+  .cost {
+    font-size: 46px;
+  }
+  .title1,
+  .title2 {
+    font-size: 14px;
+  }
+  .text1,
+  .text2 {
+    font-size: 10px;
+    padding-top: 8px;
+    padding-right: 30px;
+  }
+  .row3 {
+    display: flex;
+    gap: 41px;
+  }
+  .column {
+    width: calc((100% / 12) * 3);
+    padding-top: 40px;
+  }
+}
+@media (min-width: 1280px) {
+  .part-comment {
+    padding-top: 91px;
+    padding-bottom: 111px;
+  }
+  .heading {
+    font-size: 55px;
+  }
+  .box-1 {
+    width: 77.5%;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-top: 49px;
+  }
+  .text {
+    font-size: 20px;
+    padding: 45px;
+  }
+  .info {
+    display: flex;
+    gap: 30px;
+  }
+  .fullname {
+    font-size: 30px;
+  }
+  .icon {
+    margin-top: 30px;
+  }
+  .profil {
+    margin-left: 26px;
+    margin-bottom: 29px;
+  }
+  .icon-part {
+    margin-top: 39px;
+  }
+  .announcement {
+    padding-top: 179px;
+    padding-bottom: 185px;
+  }
+  .p1 {
+    font-size: 25px;
+  }
+  .cost {
+    font-size: 80px;
+  }
+  .row3 {
+    display: flex;
+    gap: 70px;
+  }
+  .column {
+    width: calc((100% / 12) * 3);
+    padding-top: 75px;
+  }
+
+  .title1,
+  .title2 {
+    font-size: 25px;
+  }
+  .text1,
+  .text2 {
+    padding-top: 20px;
+    padding-right: 1px;
+    font-size: 18px;
+  }
+  .heading2 {
+    font-size: 55px;
+    margin-bottom: 54px;
+  }
 }
