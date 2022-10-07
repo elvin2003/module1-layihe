@@ -1,0 +1,33 @@
+.section-1 .container h1{font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;}
+span{font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+/* or 32px */
+
+
+color: #1E4681;}
+p{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;}
+.perviy{display: flex;
+  flex-direction: row;
+margin-top: 89px;
+list-style-type: none;}
+
+.vtoroy{display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+margin-top: 21px;}
+  .section-2{margin-top: 179px;}
