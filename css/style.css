@@ -1,20 +1,17 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url("./orkhann.css");
 @import url("./bayram1.css");
 @import url("./zeyneb.css");
 @import url("./elvin.css");
-*{
-=======
+
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&family=Roboto+Slab:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-@import url("./elvin.css");
-@import url("./zeyneb.css");
-@import url("./orxan.css");
-@import url("./bayram1.css");
+
 
 * {
->>>>>>> a377e23aee09d05754566b98a31c2c6969dcf1fb
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
